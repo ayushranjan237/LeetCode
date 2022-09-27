@@ -7,10 +7,10 @@ public:
             if(operations[i] == "--X" || operations[i] == "X--") {
                 x--;
             }
-            else if(operations[i] == "++X" || operations[i] == "X++"){
+             else //if(operations[i] == "++X" || operations[i] == "X++"){
                 
              x++;
-            }
+            
              
         }
        return x;
